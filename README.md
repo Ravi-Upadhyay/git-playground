@@ -12,5 +12,6 @@ for relearn or troubleshoot purposes.
 
 ## Links - Other useful info over web
 
-1. [How to write readme files _syntax explanations_](https://help.github.com/articles/basic-writing-and-formatting-syntax/#lists)
-2. [Readme.md template _that is how its done_](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
+1. [Try github commands `_a nice hands on_`](https://try.github.io)
+2. [How to write readme files `_syntax explanations_`](https://help.github.com/articles/basic-writing-and-formatting-syntax/#lists)
+3. [Readme.md template `_that is how its done_`](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
