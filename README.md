@@ -7,17 +7,32 @@ for relearn or troubleshoot purposes.
 ## Index - What all included
 
 1. Cheatsheets
-   - Atlassian Cheatsheet: A brief cheetsheet including main commands. [Altassian Cheatsheet]()
-   - Git Tower Cheatsheet Bundle: A collection of cheatsheets, nicely structured. [Git Tower Cheatsheet]()
-2. GIT Submodules
+   - Atlassian Cheatsheet: A brief cheetsheet including main commands. [Altassian Cheatsheet](https://github.com/Ravi-Upadhyay/git-playground/blob/master/Cheatsheets/atlassian/atlassian-git-cheatsheet.pdf)
+   - Git Tower Cheatsheet Bundle: A collection of cheatsheets, nicely structured. [Git Tower Cheatsheet](https://github.com/Ravi-Upadhyay/git-playground/tree/master/Cheatsheets/git-tower)
+2. Markdown (.md) File Syntax
+3. Submodules
+4. Template - README.md file
 
-### GIT Submodules
+### Cheatsheets
+
+These cheatsheets contain basic to advance level git commands that will enable you to master/troubleshoot git. 
+Git command line is very vast and advanced which may include several scenarios. While cheatsheet by Atlassian is 
+handy one page to use on your normal day to day needs, Git tower has collection of documents to help get rid of 
+any riddle that might come.
+
+### Markdown
+
+Please find link below to learn more about how to write markdown files. The purpose of writing markdown files is
+they are simple and can contain wide variety of information that may need for present some document about any repository
+or project.
+
+### Submodules
 
 * The purpose of git submodules is to have an independent another git repository within a git repository.
 * Suppose, in your project you have some submodule which exists as an independent git repository or project. A plugin may be.
 * Another use which I see to manage git account by clubbing similar set of repository. (i.e. some ES6 repo may be part of JS).
 
-#### GIT Submodules - How it works ?
+#### Submodules - How it works ?
 
 1. To add any repository as submodule, clone it inside repository normally `git clone https://github.com/repo-sub-module.git`
 2. Use `git status` you will be able to see added repository as `untracked folder/files`
