@@ -16,3 +16,4 @@ for relearn or troubleshoot purposes.
 2. [All about GIT `explore deep`](https://git-scm.com/book/en/v2)
 3. [How to write readme files `syntax explanations`](https://help.github.com/articles/basic-writing-and-formatting-syntax/#lists)
 4. [Readme.md template `that is how its done`](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
+
