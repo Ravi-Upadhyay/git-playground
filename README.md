@@ -44,10 +44,27 @@ or project.
 8. While cloning parent if you want to clone submodules also use `git clone --recursive https://git-hub.com/parent-repo-with-sub-modules.git`
 9. When you go into submodule directory, you will find `HEAD` in `detached` state. You can `git checkout master` to `attach HEAD` to branch.
 
+### Try GIT - Some handson exersice
+
+There are some great tools available to help you in learning process. Best things they offer are
+
+- Visulaization of every step.
+- Minimal, to keep focused over one activity at a time.
+- You can choose your own pace.
+
+1. [Visualize GIT, A best way to try](http://git-school.github.io/visualizing-git/)
+2. [Visualize GIT, branching](https://learngitbranching.js.org/?NODEMO)
+3. [Tutorial of GIT commands, Levels](https://learngitbranching.js.org)
+
+### Templates
+
+Some templates that are ready to use and will give ideas about best practices to follow:
+
+1. [Readme.md template `that is how its done`](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
+
 ## Links - Other useful info over web
 
 1. [Try github commands `a nice interface for hands on`](https://try.github.io)
 2. [All about GIT `explore deep`](https://git-scm.com/book/en/v2)
 3. [How to write readme files `syntax explanations`](https://help.github.com/articles/basic-writing-and-formatting-syntax/#lists)
-4. [Readme.md template `that is how its done`](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
 
