@@ -6,12 +6,14 @@ for relearn or troubleshoot purposes.
 
 ## Index - What all included
 
-1. Cheatsheets
+- Cheatsheets
    - Atlassian Cheatsheet: A brief cheetsheet including main commands. [Altassian Cheatsheet](https://github.com/Ravi-Upadhyay/git-playground/blob/master/Cheatsheets/atlassian/atlassian-git-cheatsheet.pdf)
    - Git Tower Cheatsheet Bundle: A collection of cheatsheets, nicely structured. [Git Tower Cheatsheet](https://github.com/Ravi-Upadhyay/git-playground/tree/master/Cheatsheets/git-tower)
-2. Markdown (.md) File Syntax
-3. Submodules
-4. Template - README.md file
+- Merge
+- Stash
+- Markdown (.md) File Syntax
+- Submodules
+- Template - README.md file
 
 ### Cheatsheets
 
@@ -19,6 +21,40 @@ These cheatsheets contain basic to advance level git commands that will enable y
 Git command line is very vast and advanced which may include several scenarios. While cheatsheet by Atlassian is 
 handy one page to use on your normal day to day needs, Git tower has collection of documents to help get rid of 
 any riddle that might come.
+
+### Merge
+
+Merging is Git's way of putting a forked history back together again. The git merge command lets you take the independent lines of development created by git branch and integrate them into a single branch.
+
+[A nice explaination, Git Merge](https://www.atlassian.com/git/tutorials/using-branches/git-merge)
+
+//TODO: continue
+
+### Stash
+
+Often, when you’ve been working on part of your project, things are in a messy state and you want to switch branches for a bit to work on something else. The problem is, you don’t want to do a commit of half-done work just so you can get back to this point later. 
+
+1. Use `git stash` to push new stash onto your stack.
+2. Now your working directory will be clean, you can switch to another branches as well.
+3. You can use `git stash list` to see the list of all stashes. For example: _example-stash-1_
+4. Use `git stash apply` to bring all changes back to working directory, top most stash.
+5. Use `git stash apply <stash>` to bring all changes back to working directory, stash whichever mentioned. For example: _example-stash-2_
+
+```
+
+// EXAMPLE-STASH-1: get list of all stashes
+
+$ git stash list
+stash@{0}: WIP on master: 049d078 added the index file
+stash@{1}: WIP on master: c264051 Revert "added file_size"
+stash@{2}: WIP on master: 21d80a5 added number to log
+
+// EXAMPLE-STASH-2: apply stash to particular stash 
+
+$ git stash apply stash@{2}
+
+
+```
 
 ### Markdown
 
