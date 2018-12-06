@@ -11,6 +11,7 @@ for relearn or troubleshoot purposes.
    - Git Tower Cheatsheet Bundle: A collection of cheatsheets, nicely structured. [Git Tower Cheatsheet](https://github.com/Ravi-Upadhyay/git-playground/tree/master/Cheatsheets/git-tower)
 - Merge
 - Stash
+- Revert
 - Markdown (.md) File Syntax
 - Submodules
 - Template - README.md file
@@ -55,6 +56,12 @@ $ git stash apply stash@{2}
 
 
 ```
+
+### Revert
+
+The git revert command can be considered an 'undo' type command, however, it is not a traditional undo operation. Instead of removing the commit from the project history, it figures out how to invert the changes introduced by the commit and appends a new commit with the resulting inverse content.
+
+[A nice explaination, Git Revert](https://www.atlassian.com/git/tutorials/undoing-changes/git-revert)
 
 ### Markdown
 
