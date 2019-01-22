@@ -104,6 +104,7 @@ There are some great tools available to help you in learning process. Best thing
 Some templates that are ready to use and will give ideas about best practices to follow:
 
 1. [Readme.md template `that is how its done`](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
+2. [Readme.md shell structure what I use](README-V-1.0/template.md)
 
 ## Links - Other useful info over web
 
