@@ -120,6 +120,12 @@ There are some great tools available to help you in learning process. Best thing
 
 ---
 
+## Git Workflows
+
+- [Initial Setup For Development Machine]()
+
+---
+
 ## Templates
 
 Some templates that are ready to use and will give ideas about best practices to follow:
