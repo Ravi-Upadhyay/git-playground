@@ -4,24 +4,37 @@ This is collaboration of all resources, hands-on activities and experiences. Thi
 this is to keep on learning git down the line and keep all resources at a safe place so it will be helpful further 
 for relearn or troubleshoot purposes.
 
+---
+
 ## Index - What all included
 
 - Cheatsheets
    - Atlassian Cheatsheet: A brief cheetsheet including main commands. [Altassian Cheatsheet](https://github.com/Ravi-Upadhyay/git-playground/blob/master/Cheatsheets/atlassian/atlassian-git-cheatsheet.pdf)
    - Git Tower Cheatsheet Bundle: A collection of cheatsheets, nicely structured. [Git Tower Cheatsheet](https://github.com/Ravi-Upadhyay/git-playground/tree/master/Cheatsheets/git-tower)
-- Merge
-- Stash
-- Revert
-- Markdown (.md) File Syntax
-- Submodules
-- Template - README.md file
+- Concepts - Using Git
+  - Merge
+  - Stash
+  - Revert
+- Advanced Concepts
+  - Markdown (.md) File Syntax
+  - Submodules
+- Try Git - some handson exercise
+- Git Workflows
+- Templates 
+- Links - Other useful info over web
 
-### Cheatsheets
+---
+
+## Cheatsheets
 
 These cheatsheets contain basic to advance level git commands that will enable you to master/troubleshoot git. 
 Git command line is very vast and advanced which may include several scenarios. While cheatsheet by Atlassian is 
 handy one page to use on your normal day to day needs, Git tower has collection of documents to help get rid of 
 any riddle that might come.
+
+---
+
+## Concepts - Using Git
 
 ### Merge
 
@@ -63,6 +76,10 @@ The git revert command can be considered an 'undo' type command, however, it is 
 
 [A nice explaination, Git Revert](https://www.atlassian.com/git/tutorials/undoing-changes/git-revert)
 
+---
+
+## Advanced Concepts
+
 ### Markdown
 
 Please find link below to learn more about how to write markdown files. The purpose of writing markdown files is
@@ -87,7 +104,9 @@ or project.
 8. While cloning parent if you want to clone submodules also use `git clone --recursive https://git-hub.com/parent-repo-with-sub-modules.git`
 9. When you go into submodule directory, you will find `HEAD` in `detached` state. You can `git checkout master` to `attach HEAD` to branch.
 
-### Try GIT - Some handson exersice
+---
+
+## Try GIT - Some handson exersice
 
 There are some great tools available to help you in learning process. Best things they offer are
 
@@ -99,12 +118,16 @@ There are some great tools available to help you in learning process. Best thing
 2. [Visualize GIT, branching](https://learngitbranching.js.org/?NODEMO)
 3. [Tutorial of GIT commands, Levels](https://learngitbranching.js.org)
 
-### Templates
+---
+
+## Templates
 
 Some templates that are ready to use and will give ideas about best practices to follow:
 
 1. [Readme.md template `that is how its done`](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
 2. [Readme.md shell structure what I use](README-V-1.0/template.md)
+
+---
 
 ## Links - Other useful info over web
 
