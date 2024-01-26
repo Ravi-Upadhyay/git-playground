@@ -140,4 +140,4 @@ Some templates that are ready to use and will give ideas about best practices to
 1. [Try github commands `a nice interface for hands on`](https://try.github.io)
 2. [All about GIT `explore deep`](https://git-scm.com/book/en/v2)
 3. [How to write readme files `syntax explanations`](https://help.github.com/articles/basic-writing-and-formatting-syntax/#lists)
-
+4. [How to configure SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
