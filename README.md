@@ -28,7 +28,11 @@ for relearn or troubleshoot purposes.
 
 ## Setting up
 
+1. Local configuration (Recommended)
+2. Setting up SSH / Login Mechanism.
+
 ```bash
+# Local machine, setting up configuration (Who are you)
   git config --global user.email "you@example.com"
   git config --global user.name "Your Name"
 ```
