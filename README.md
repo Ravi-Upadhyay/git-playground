@@ -8,6 +8,7 @@ for relearn or troubleshoot purposes.
 
 ## Index - What all included
 
+- Setting up
 - Cheatsheets
    - Atlassian Cheatsheet: A brief cheetsheet including main commands. [Altassian Cheatsheet](https://github.com/Ravi-Upadhyay/git-playground/blob/master/Cheatsheets/atlassian/atlassian-git-cheatsheet.pdf)
    - Git Tower Cheatsheet Bundle: A collection of cheatsheets, nicely structured. [Git Tower Cheatsheet](https://github.com/Ravi-Upadhyay/git-playground/tree/master/Cheatsheets/git-tower)
@@ -22,6 +23,15 @@ for relearn or troubleshoot purposes.
 - Git Workflows
 - Templates 
 - Links - Other useful info over web
+
+---
+
+## Setting up
+
+```bash
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+```
 
 ---
 
